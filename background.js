@@ -62,7 +62,7 @@ async function getAndSetNextProblems() {
     let solvedProblems = allProblems.filter(p => p.questionStatus === 'SOLVED');
 
     if (solvedProblems.length > lastProblemsCount) {
-        solvedProblems = solvedProblems.slice(solvedProblems.length - lastProblemsCount);
+        solvedProblems = solvedProblems.slice(0, lastProblemsCount);
     }
 
     if (solvedProblems.length < 2) {
