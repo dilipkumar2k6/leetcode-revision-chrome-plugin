@@ -1,3 +1,6 @@
+# What?
+An extension to help you practice LeetCode problems you've already solved. It randomly picks two problems from your recently solved list, encouraging you to revise and retain your knowledge.
+
 # How to install leetcode revision chrome plugin?
 
 1. Open the Extensions Page:
